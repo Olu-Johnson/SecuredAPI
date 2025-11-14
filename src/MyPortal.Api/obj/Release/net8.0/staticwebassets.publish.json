@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VGP1aC0m9+6LV1T5ods7floMy0eRu/DcQIlfrhCDSqg=",
+  "Source": "MyPortal.Api",
+  "BasePath": "_content/MyPortal.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

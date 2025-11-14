@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zylux Media Offers</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+    </style>
+</head>
+<body style="font-family: 'Roboto', Arial, sans-serif; margin: 0; padding: 0; background-color: #FFF3E0; color: #333333;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                <table class="container" width="800" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <!-- Header -->
+                    <tr>
+                        <td style="background-color: #FFF3E0;  text-align: center;">
+                            <img src="https://zyluxmedia.com/assets/images/ZyluxBanner.jpeg" alt="Zylux Media Logo" width="100%" style="max-width: 100%;">
+                            <h1 style="color: #E65100; font-size: 15px; text-align: left; padding-left: 20px; font-weight: 700; margin-top: 40px;">Dear @Model.firstname</h1>
+                            <p style="color: #000000; font-size: 16px; text-align: left; padding-left: 20px; padding-top: 40px;">@Model.note</p>
+                        </td>
+                    </tr>
+
+                    <!-- Offers Section -->
+                    <tr>
+                        <td style="padding: 20px;">
+                            
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            @foreach (var item in Model.offers)
+                            {
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFF3E0; border-radius: 8px; overflow: hidden; border: 2px solid #FF8C00;">
+                                            <tr>
+                                                <td style="padding: 20px;">
+                                                    <h3 style="color: #E65100; font-size: 18px; margin: 0 0 10px 0;">@item.offerName</h3>
+                                                    <p style="color: #FF8C00; font-size: 14px; margin: 0 0 10px 0;">
+                                                        <strong>Offer Id:</strong> @item.offerId | <strong>Payout:</strong> @item.payout
+                                                    </p>
+                                                    <p style="color: #666666; font-size: 14px; margin: 0 0 15px 0;">
+                                                        <strong>Category:</strong> @item.categories
+                                                    </p>
+                                                    <a href="@Model.networksignupurl" style="background-color: #FF6F00; color: #FFFFFF; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">Apply Now</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>   
+                                </tr>
+                            }                               
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Account Managers Section -->
+                    <tr>
+                        <td style="padding: 20px; background-color: #FFF3E0;">
+                            <h2 style="color: #E65100; font-size: 24px; font-weight: 700; text-align: center; margin-bottom: 20px;">Contact Us</h2>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="50%" style="padding: 10px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; overflow: hidden; border: 2px solid #FF8C00;">
+                                            <tr>
+                                                <td style="padding: 15px;">
+                                                    <h3 style="color: #FF6F00; font-size: 18px; margin: 0 0 10px 0;">Deborah O.</h3>
+                                                    <p style="color: #666666; font-size: 14px; margin: 0;">
+                                                        <a href="mailto:deborah@zyluxmedia.com" style="color: #FF6F00; text-decoration: none;">deborah@zyluxmedia.com</a><br>
+                                                        Skype: live:.cid.d89538c9c8407c2f
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="50%" style="padding: 10px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; overflow: hidden; border: 2px solid #FF8C00;">
+                                            <tr>
+                                                <td style="padding: 15px;">
+                                                    <h3 style="color: #FF6F00; font-size: 18px; margin: 0 0 10px 0;">Hannah A.</h3>
+                                                    <p style="color: #666666; font-size: 14px; margin: 0;">
+                                                        <a href="mailto:hannah@zyluxmedia.com" style="color: #FF6F00; text-decoration: none;">hannah@zyluxmedia.com</a><br>
+                                                        Skype: live:.cid.6c0e6589bd4f16d1
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="50%" style="padding: 10px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; overflow: hidden; border: 2px solid #FF8C00;">
+                                            <tr>
+                                                <td style="padding: 15px;">
+                                                    <h3 style="color: #FF6F00; font-size: 18px; margin: 0 0 10px 0;">Adeshola O.</h3>
+                                                    <p style="color: #666666; font-size: 14px; margin: 0;">
+                                                        <a href="mailto:adeshola@zyluxmedia.com" style="color: #FF6F00; text-decoration: none;">adeshola@zyluxmedia.com</a><br>
+                                                        Skype: live:.cid.519e382a45dc23e5
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="50%" style="padding: 10px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; overflow: hidden; border: 2px solid #FF8C00;">
+                                            <tr>
+                                                <td style="padding: 15px;">
+                                                    <h3 style="color: #FF6F00; font-size: 18px; margin: 0 0 10px 0;">Aanu O.</h3>
+                                                    <p style="color: #666666; font-size: 14px; margin: 0;">
+                                                        <a href="mailto:aanu@zyluxmedia.com" style="color: #FF6F00; text-decoration: none;">aanu@zyluxmedia.com</a><br>
+                                                        Skype: live:.cid.fed629ae9a2b9e3d
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Sign Up Section -->
+                    <tr>
+                        <td style="padding: 40px 20px; background-color: #FF8C00; text-align: center;">
+                            <h2 style="color: #FFFFFF; font-size: 28px; font-weight: 700; margin: 0 0 20px 0;">Join Zylux Media</h2>
+                            <p style="color: #FFFFFF; font-size: 18px; margin: 0 0 20px 0;">Sign up with Zylux Media and unlock a world of orange opportunities!</p>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <a href="@Model.networksignupurl" style="background-color: #FFFFFF; color: #FF6F00; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 18px; display: inline-block; border: 2px solid #FFFFFF;">Sign Up Now</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background-color: #E65100; padding: 20px; text-align: center;">
+                            <p style="color: #FFFFFF; font-size: 14px; margin: 0 0 10px 0;">690, 1007 N Orange St, 4th Floor , Wilmington, DE 19801 New Castle US</p>
+                            <p style="color: #FFFFFF; font-size: 14px; margin: 0;">
+                                Copyright © Zylux Media | 
+                                <a href="http://zyluxmedia.com" style="color: #FFE0B2; text-decoration: none;">www.zyluxmedia.com</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

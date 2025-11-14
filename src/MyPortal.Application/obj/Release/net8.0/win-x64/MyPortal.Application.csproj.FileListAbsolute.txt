@@ -1,0 +1,15 @@
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/bin/Release/net8.0/win-x64/MyPortal.Application.deps.json
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/bin/Release/net8.0/win-x64/MyPortal.Application.dll
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/bin/Release/net8.0/win-x64/MyPortal.Application.pdb
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/bin/Release/net8.0/win-x64/MyPortal.Core.dll
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/bin/Release/net8.0/win-x64/MyPortal.Core.pdb
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.csproj.AssemblyReference.cache
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.AssemblyInfoInputs.cache
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.AssemblyInfo.cs
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.csproj.CoreCompileInputs.cache
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.2A2D0F9C.Up2Date
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.dll
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/refint/MyPortal.Application.dll
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/MyPortal.Application.pdb
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Application/obj/Release/net8.0/win-x64/ref/MyPortal.Application.dll

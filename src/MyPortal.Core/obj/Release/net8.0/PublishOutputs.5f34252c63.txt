@@ -1,0 +1,3 @@
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Core/bin/Release/net8.0/publish/MyPortal.Core.dll
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Core/bin/Release/net8.0/publish/MyPortal.Core.deps.json
+/Users/olu-johnsonoluwatosin/Documents/MyProject/dotnet/secureportal/MyPortalCampaign/src/MyPortal.Core/bin/Release/net8.0/publish/MyPortal.Core.pdb
